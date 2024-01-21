@@ -1,0 +1,22 @@
+//variable are declared in three types var, let, const
+
+//to declare a function use function keyword and the parameters inside will behave as local 
+variables
+
+//javascript has total of 8 data types
+
+//1. number
+//2. string
+//3. boolean
+//4. Bigint
+//5. undefined
+//6. null
+//7. symbol
+//8. object
+
+//in object data type there are three data types which are an object, an array and a date
+
+//javascript object comes under name and value pair
+
+//in the date variable giving no parameters gives present fate and time
+
