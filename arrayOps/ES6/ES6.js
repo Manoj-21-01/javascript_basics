@@ -1,32 +1,32 @@
 //ECMAScript 2015 is the second major version of js
 
-// let x = 10;
-// {
-//     let x = 2;
-// }
-// console.log(x);
+let x = 10;
+{
+    let x = 2;
+}
+console.log(x);
 
-// var num = 5;
-// {
-//     var num = 20;
-// } // x is 20 b'coz we declared num under var which is a global scope
-// console.log(num);
+var num = 5;
+{
+    var num = 20;
+} // x is 20 b'coz we declared num under var which is a global scope
+console.log(num);
 
-// // multiplication using function in ES6
-// const multiplication = (x,y) => {return x*y};
+// multiplication using function in ES6
+const multiplication = (x,y) => {return x*y};
 // console.log(multiplication(4,8)); //returns 32
 
-// //spread (...) operator
+//spread (...) operator
 
-// const q1 = ["Jan", "Feb", "Mar"];
-// const q2 = ["Apr", "May" ,"June"];
-// const year = [...q1,...q2];
-// console.log(year);
+const q1 = ["Jan", "Feb", "Mar"];
+const q2 = ["Apr", "May" ,"June"];
+const year = [...q1,...q2];
+console.log(year);
 
-// const nums = [1,2,3,4];
-// for (const num of nums){
-//     console.log(num);
-// }
+const nums = [1,2,3,4];
+for (const num of nums){
+    console.log(num);
+}
 
 const data = new Map([
     ["names",1000],
