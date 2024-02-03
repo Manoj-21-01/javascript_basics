@@ -72,3 +72,40 @@ console.log(things.has("laptops"));
 
 console.log(typeof(things));
 console.log(things instanceof Map);
+
+a = 1
+b = '1'
+
+console.log(a==b)
+
+console.log(a===b)
+
+//call method
+function sayHello() {
+    console.log(`Hello, ${this.name}!`);
+  }
+  
+  const person = { name: 'Nani' };
+  
+  sayHello.call(person);
+  
+//apply method
+function greet(greeting) {
+    console.log(`${greeting}, ${this.name}!`);
+  }
+  
+  const user = { name: 'David' };
+  
+  greet.apply(user, ['Good morning']); 
+
+  //bind
+  function introduce() {
+    console.log(`My name is ${this.name} and I am a ${this.role}.`);
+  }
+  
+  const student = { name: 'Rahul', role: 'student' };
+  
+  const studentIntroduction = introduce.bind(student);
+  
+  studentIntroduction();
+  
